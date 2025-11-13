@@ -7,7 +7,7 @@ services:
         ENV_YML: "environment.yaml"
         VENV: "stats"
         REQ_TXT: "requirements.txt"
-    image: biobr131/py-r-stats:latest
+    image: tyamadabiodataeng/py-r-stats
     container_name: jupyter
     command: mamba run --name stats jupyter lab --ip=0.0.0.0 --allow-root --LabApp.token=''
     ports:
