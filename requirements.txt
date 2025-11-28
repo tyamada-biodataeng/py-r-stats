@@ -6,12 +6,18 @@ pytest
 pytest-snapshot
 structlog
 pytest-structlog
+sphinx
+sphinx-rtd-theme
 line_profiler
 memory_profiler
+numpy
+scipy
+statsmodels
+openpyxl
+matplotlib
 pandas[performance, plot, computation, excel]
 polars-lts-cpu
 ibis-framework[pandas, polars]
-statsmodels
 japanize-matplotlib
 seaborn
 fastcluster
